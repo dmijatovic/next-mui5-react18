@@ -1,3 +1,50 @@
+# Next with React 18 and Jest
+
+This version uses React 18 and it is test to see how well everything integrates with other libs I am using in other projects
+
+
+## RSD dependencies
+
+- libraries
+
+```bash
+# material ui
+yarn add @emotion/react @emotion/server @emotion/styled @mui/icons-material @mui/material
+yarn add @tailwindcss/typography
+yarn add nprogress cookie d3 jsonwebtoken
+# form validation
+yarn add react-hook-form
+# markdown
+yarn add react-markdown
+# drag-n-drop
+yarn add react-beautiful-dnd
+# image resizing (next dependency)
+yarn add sharp
+
+```
+
+- dev dependencies
+
+```bash
+
+
+```
+
+
+## Jest
+
+Based on documentation to setting up [Jest with Rust compiler](https://nextjs.org/docs/testing#setting-up-jest-with-the-rust-compiler)
+
+```bash
+# npm way
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+# yarn way
+yarn add -D jest @testing-library/react @testing-library/jest-dom
+```
+
+- create jest.config.js file
+- create jest.stup.js file for additional react-testing-library matchers support
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
