@@ -2,34 +2,28 @@
 
 This version uses React 18 and it is test to see how well everything integrates with other libs I am using in other projects
 
-
 ## RSD dependencies
-
-- libraries
 
 ```bash
 # material ui
-yarn add @emotion/react @emotion/server @emotion/styled @mui/icons-material @mui/material
-yarn add @tailwindcss/typography
-yarn add nprogress cookie d3 jsonwebtoken
+yarn add @emotion/cache @emotion/react @emotion/server @emotion/styled @mui/icons-material @mui/material
+# tailwind (more info here https://tailwindcss.com/docs/guides/nextjs)
+yarn add @tailwindcss/typography && yarn add -D tailwindcss postcss autoprefixer
+# progress bar (top screen)
+yarn add nprogress && yarn add -D @types/nprogress
+# cookie parser and validator
+yarn add cookie jsonwebtoken && yarn add -D @types/cookie @types/jsonwebtoken
 # form validation
 yarn add react-hook-form
-# markdown
+# markdown support
 yarn add react-markdown
 # drag-n-drop
-yarn add react-beautiful-dnd
-# image resizing (next dependency)
+yarn add react-beautiful-dnd && yarn add -D @types/react-beautiful-dnd
+# D3 visualisation lib
+yarn add d3 && yarn add -D @types/d3
+# image resizing (next dependency) - where is this used?!?
 yarn add sharp
-
 ```
-
-- dev dependencies
-
-```bash
-
-
-```
-
 
 ## Jest
 
