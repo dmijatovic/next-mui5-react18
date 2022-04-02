@@ -8,8 +8,10 @@ This version uses React 18 and it is test to see how well everything integrates 
 - libraries
 
 ```bash
-# material ui
-yarn add @emotion/react @emotion/server @emotion/styled @mui/icons-material @mui/material
+# material ui with styled components
+yarn add @mui/styled-engine @mui/styled-engine-sc styled-components @mui/icons-material @mui/material next-transpile-modules
+yarn add -D @types/styled-components
+
 yarn add @tailwindcss/typography
 yarn add nprogress cookie d3 jsonwebtoken
 # form validation
@@ -23,13 +25,15 @@ yarn add sharp
 
 ```
 
-- dev dependencies
+## Styled components
 
-```bash
+This setup is based on [this codesandbox](https://codesandbox.io/s/nextjs-ssr-with-styled-components-typescript-forked-f4r1lr?file=/package.json:760-842).
 
+When using MUI with styled components instead of default emotion
 
-```
-
+- additional resolution need to be placed in package.json
+- next.config.js need to have additional transpile definitions
+- tsconfig.json need to have additional definitions
 
 ## Jest
 
