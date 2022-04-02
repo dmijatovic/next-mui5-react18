@@ -35,6 +35,12 @@ When using MUI with styled components instead of default emotion
 - next.config.js need to have additional transpile definitions
 - tsconfig.json need to have additional definitions
 
+**Has the issues and is not production ready, see [this issue](https://github.com/mui/material-ui/issues/29742)**
+
+
+
+I do not see any advantage of using styled components above emotion. Both are CSS-in-JS libs but emoition has propper integration with MUI theme.
+
 ## Jest
 
 Based on documentation to setting up [Jest with Rust compiler](https://nextjs.org/docs/testing#setting-up-jest-with-the-rust-compiler)

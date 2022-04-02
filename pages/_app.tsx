@@ -8,6 +8,7 @@ import theme from '../styles/muiTheme';
 
 export default function MyApp(props: AppProps) {
   const { Component, pageProps } = props;
+
   return (
     <React.Fragment>
       <Head>
